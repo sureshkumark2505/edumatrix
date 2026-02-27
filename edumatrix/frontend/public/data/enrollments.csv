@@ -1,0 +1,7 @@
+enrollment_id,student_id,course_id,semester,grade,score_percentage,competency_level,target_goal
+"ENR-001","CMD-00101","CS101","Fall 2025","A+","98","95","90"
+"ENR-002","CMD-00101","CS202","Fall 2025","A","92","90","95"
+"ENR-003","CMD-00102","ENG201","Fall 2025","A","90","88","85"
+"ENR-004","CMD-00105","SCI102","Fall 2025","C","72","65","80"
+"ENR-005","CMD-00106","CS202","Fall 2025","A","94","92","95"
+"ENR-006","CMD-00110","SCI102","Fall 2025","C-","70","60","75"

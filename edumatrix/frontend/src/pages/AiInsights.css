@@ -1,0 +1,250 @@
+/* e:\stuweb\edumatrix\frontend\src\pages\AiInsights.css */
+.insights-container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 32px;
+}
+
+.ai-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.ai-metric-card {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-top-width: 3px;
+    border-top-style: solid;
+}
+
+.border-glow-blue {
+    border-top-color: var(--c-primary-light);
+    box-shadow: 0 -4px 12px rgba(59, 130, 246, 0.1);
+}
+
+.border-glow-red {
+    border-top-color: var(--c-red);
+    box-shadow: 0 -4px 12px rgba(239, 68, 68, 0.1);
+}
+
+.border-glow-green {
+    border-top-color: var(--c-green);
+    box-shadow: 0 -4px 12px rgba(16, 185, 129, 0.1);
+}
+
+.text-primary {
+    color: var(--c-primary-light);
+}
+
+.text-red {
+    color: var(--c-red);
+}
+
+.text-green {
+    color: var(--c-green);
+}
+
+.metric-header {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.metric-value {
+    font-size: 36px;
+    font-weight: 800;
+    color: var(--text-primary);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+}
+
+.metric-value .trend {
+    font-size: 14px;
+    padding: 4px 8px;
+    border-radius: var(--radius-full);
+    background: var(--bg-overlay);
+}
+
+.metric-footer {
+    font-size: 13px;
+    color: var(--text-tertiary);
+    font-weight: 500;
+}
+
+/* Insights Layout */
+.insights-layout {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+}
+
+.charts-column {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.ai-panel-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.ai-suggestion-panel {
+    background: linear-gradient(180deg, var(--bg-card) 0%, rgba(59, 130, 246, 0.05) 100%);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-lg);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.panel-header {
+    padding: 24px;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.panel-header h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.panel-body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex: 1;
+}
+
+.suggestion-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.suggestion-section h4 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 15px;
+    color: var(--text-primary);
+}
+
+.study-list {
+    margin: 0;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.study-list li::marker {
+    color: var(--c-primary-light);
+}
+
+.success-text {
+    color: var(--c-green);
+    font-weight: 500;
+}
+
+.concept-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tag {
+    padding: 6px 12px;
+    border-radius: var(--radius-md);
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.tag.urgent {
+    background: rgba(239, 68, 68, 0.1);
+    color: var(--c-red);
+}
+
+.tag.warning {
+    background: rgba(245, 158, 11, 0.1);
+    color: var(--c-orange);
+}
+
+.tag.normal {
+    background: var(--bg-overlay);
+    color: var(--text-secondary);
+}
+
+.probability-box {
+    background: var(--bg-card-solid);
+    padding: 16px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-solid);
+    margin-top: auto;
+}
+
+.prob-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.prob-header strong {
+    font-size: 20px;
+    color: var(--c-green);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 8px;
+    background: var(--bg-main);
+    border-radius: var(--radius-full);
+    margin-bottom: 8px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--grad-teal-blue);
+    border-radius: var(--radius-full);
+}
+
+.probability-box p {
+    font-size: 12px;
+    color: var(--text-tertiary);
+    margin: 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.mt-4 {
+    margin-top: 16px;
+}
+
+@media (max-width: 1024px) {
+    .insights-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .ai-metrics-grid {
+        grid-template-columns: 1fr;
+    }
+}

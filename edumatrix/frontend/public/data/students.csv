@@ -1,0 +1,11 @@
+student_id,first_name,last_name,email,department,year_of_study,current_cgpa,total_xp,global_rank,academic_status,dropout_risk_score,study_streak_days
+"CMD-00101","Emma","Wright","e.wright@edumatrix.ai","Computer Science","2","9.85","2840","1","Stable","2","21"
+"CMD-00102","James","Cole","j.cole@edumatrix.ai","Engineering","3","9.2","2710","2","Stable","5","14"
+"CMD-00103","Sophia","Lee","s.lee@edumatrix.ai","Business","1","8.75","2500","4","Stable","8","10"
+"CMD-00104","Lucas","Brown","l.brown@edumatrix.ai","Arts","4","7.8","2420","5","Stable","15","7"
+"CMD-00105","Olivia","Davis","o.davis@edumatrix.ai","Science","2","7.15","1800","1200","At-Risk","45","2"
+"CMD-00106","Liam","Miller","l.miller@edumatrix.ai","Computer Science","3","9.5","2600","3","Stable","4","18"
+"CMD-00107","Ava","Wilson","a.wilson@edumatrix.ai","Engineering","1","8.4","2100","300","Stable","10","5"
+"CMD-00108","Noah","Moore","n.moore@edumatrix.ai","Business","2","7.95","1950","800","Stable","20","4"
+"CMD-00109","Isabella","Taylor","i.taylor@edumatrix.ai","Arts","3","8.9","2300","150","Stable","6","12"
+"CMD-00110","Mason","Anderson","m.anderson@edumatrix.ai","Science","4","7.05","1750","1500","At-Risk","50","1"

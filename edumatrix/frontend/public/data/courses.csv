@@ -1,0 +1,9 @@
+course_id,course_name,department,credits
+"CS101","Data Structures","Computer Science","4"
+"ENG201","Thermodynamics","Engineering","3"
+"BUS105","Microeconomics","Business","3"
+"ART301","Modernist Poetry","Arts","3"
+"SCI102","Organic Chemistry","Science","4"
+"CS202","Machine Learning","Computer Science","4"
+"ENG305","Fluid Mechanics","Engineering","4"
+"BUS401","Strategic Management","Business","3"

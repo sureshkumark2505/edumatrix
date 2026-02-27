@@ -1,0 +1,5 @@
+attendance_id,student_id,course_id,date,status
+"ATT-01","CMD-00101","CS101","2026-02-10","Present"
+"ATT-02","CMD-00101","CS202","2026-02-10","Present"
+"ATT-03","CMD-00105","SCI102","2026-02-10","Absent"
+"ATT-04","CMD-00110","SCI102","2026-02-10","Absent"

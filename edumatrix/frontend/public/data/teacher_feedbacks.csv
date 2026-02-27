@@ -1,0 +1,4 @@
+feedback_id,student_id,course_id,teacher_name,feedback_text,date_posted,sentiment
+"FB-01","CMD-00101","CS101","Dr. Alan Turing","Emma shows exceptional understanding of tree algorithms.","2026-02-15","Positive"
+"FB-02","CMD-00105","SCI102","Prof. Marie Curie","Olivia needs to focus more during lab sessions.","2026-02-16","Negative"
+"FB-03","CMD-00106","CS202","Dr. Andrew Ng","Liams final project on neural networks was outstanding.","2026-02-18","Positive"

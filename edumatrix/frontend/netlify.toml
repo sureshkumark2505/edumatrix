@@ -1,0 +1,15 @@
+[build]
+  # Build command
+  command = "npm run build"
+  # Directory to publish (Vite default output)
+  publish = "dist"
+
+[[redirects]]
+  # Redirect all requests to index.html for client-side routing
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[build.environment]
+  # Node version
+  NODE_VERSION = "18"

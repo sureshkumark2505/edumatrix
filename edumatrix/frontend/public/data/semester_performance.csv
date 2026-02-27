@@ -1,0 +1,7 @@
+performance_id,student_id,semester_number,gpa,is_predicted
+"PERF-01","CMD-00101","1","9.7","FALSE"
+"PERF-02","CMD-00101","2","9.85","FALSE"
+"PERF-03","CMD-00101","3","9.9","TRUE"
+"PERF-04","CMD-00105","1","7.5","FALSE"
+"PERF-05","CMD-00105","2","7.15","FALSE"
+"PERF-06","CMD-00105","3","6.8","TRUE"

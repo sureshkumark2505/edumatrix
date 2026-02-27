@@ -1,0 +1,4 @@
+match_id,student_id,career_id,match_percentage,missing_skill
+"MAT-01","CMD-00101","CAR-01","98","Advanced NLP"
+"MAT-02","CMD-00102","CAR-03","85","Structural Analysis Software"
+"MAT-03","CMD-00106","CAR-02","92","Big Data Technologies"

@@ -1,0 +1,259 @@
+/* e:\stuweb\edumatrix\frontend\src\pages\Login.css */
+.login-container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: var(--bg-main);
+}
+
+.login-visual-panel {
+    flex: 1;
+    background: var(--grad-indigo-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.visual-content {
+    z-index: 2;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.logo-box-large {
+    width: 64px;
+    height: 64px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 800;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-bottom: 16px;
+}
+
+.login-visual-panel h1.text-gradient {
+    color: white;
+    background: none;
+    -webkit-text-fill-color: white;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.login-visual-panel p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.abstract-graphics {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    border-radius: var(--radius-full);
+    filter: blur(60px);
+}
+
+.shape-1 {
+    width: 400px;
+    height: 400px;
+    background: var(--c-teal);
+    top: -100px;
+    left: -100px;
+    opacity: 0.4;
+}
+
+.shape-2 {
+    width: 500px;
+    height: 500px;
+    background: var(--c-primary-light);
+    bottom: -150px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+.shape-3 {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    filter: none;
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--text-primary);
+    padding: 16px 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+    border-radius: var(--radius-full);
+    box-shadow: var(--shadow-xl);
+}
+
+.login-form-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-main);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 440px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: var(--bg-card-solid);
+}
+
+.login-card h2 {
+    font-size: 28px;
+    color: var(--text-primary);
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: var(--text-tertiary);
+    font-size: 15px;
+}
+
+.role-selector {
+    display: flex;
+    background: var(--bg-main);
+    padding: 4px;
+    border-radius: var(--radius-md);
+    gap: 4px;
+}
+
+.role-btn {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-tertiary);
+    border-radius: var(--radius-sm);
+    text-transform: capitalize;
+    transition: all var(--trans-fast);
+}
+
+.role-btn:hover {
+    color: var(--text-primary);
+}
+
+.role-btn.active {
+    background: var(--bg-card-solid);
+    color: var(--text-primary);
+    box-shadow: var(--shadow-sm);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.input-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-icon {
+    position: absolute;
+    left: 16px;
+    color: var(--text-tertiary);
+}
+
+.input-wrapper input {
+    width: 100%;
+    padding: 12px 16px 12px 48px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-solid);
+    background: var(--bg-main);
+    color: var(--text-primary);
+    font-size: 15px;
+    font-family: inherit;
+    transition: all var(--trans-fast);
+}
+
+.input-wrapper input:focus {
+    outline: none;
+    border-color: var(--c-primary-light);
+    box-shadow: var(--shadow-focus);
+    background: var(--bg-card-solid);
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.forgot-link {
+    color: var(--c-primary);
+    font-weight: 600;
+}
+
+.forgot-link:hover {
+    color: var(--c-indigo);
+}
+
+.login-btn {
+    margin-top: 12px;
+    padding: 14px;
+    border-radius: var(--radius-md);
+    background: var(--grad-indigo-blue);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    transition: all var(--trans-fast);
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.4);
+}
+
+.login-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.6);
+}
+
+@media (max-width: 768px) {
+    .login-visual-panel {
+        display: none;
+    }
+}
